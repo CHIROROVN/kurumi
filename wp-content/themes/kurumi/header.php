@@ -14,9 +14,8 @@
 <link href="<?php bloginfo( 'template_directory' ); ?>/common/css/import.css" rel="stylesheet" type="text/css" media="all">
 
 <!-- <link href="common/css/import.css" rel="stylesheet" type="text/css" media="all"> -->
-<script type="text/javascript" src="<?php bloginfo( 'template_directory' );?>/common/js/function.js"></script>
-
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'template_directory' );?>/common/js/function.js"></script>
 
 </head>
 
