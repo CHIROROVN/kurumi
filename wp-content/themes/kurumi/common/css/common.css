@@ -58,16 +58,7 @@ a {
   text-decoration:none;
 }
 
-a:link {
-  color: #525252;
-}
-
-a:visited {
-  color: #525252;
-}
-
 a:hover, a:active {
-  color: #525252;
   opacity:0.7;
 }
 
@@ -127,6 +118,10 @@ header .frame01 .logo {
 }
 
 header .frame01 .info-contact {
+  width:470px;
+  height:75px;
+  background:#61aed6;
+  padding:2px 12px;
   position:absolute;
   right:0;
 }
@@ -134,11 +129,11 @@ header .frame01 .info-contact {
 header .frame01 .text {
   position:absolute;
   left:40px;
-  top:215px;
+  top:205px;
 }
 
 header .frame01 .text p {
-  margin:15px 0px;
+  margin:20px 0px;
 }
 
 header .frame01 .photo {
@@ -150,8 +145,7 @@ header .frame01 .photo {
 header .frame02 {
   width:100%;
   height:150px;
-  background:#fff;
-  opacity:0.83;
+  background-color: rgba(255, 255, 255, 0.8);
   padding:10px 0;
   margin:0 auto;
   text-align:center;
@@ -311,6 +305,30 @@ nav ul li#nav07 a:visited {
   margin: 0 auto;
   padding:0px 10px;
 }
+
+.font-pink {
+  font-size:18px;
+  color:#f13d68;
+}
+
+h1.title-content {
+  text-align:center;
+  padding:45px 0;
+}
+
+h2.title {
+  width:100%;
+  background:url(../image/bg-title-h2-content.png) no-repeat;
+  height:50px;
+  padding:15px 0 0 20px;
+}
+
+.content {
+  width:820px;
+  margin:45px auto 0 auto;
+  color:#595757;
+}
+
 
 /*------------------------------------------------------------------------------------------------
   footer
